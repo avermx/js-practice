@@ -16,3 +16,14 @@
 
 
 
+let inp = Number(prompt())
+let inp2 = Number(prompt())
+
+let sum = inp + inp2
+
+if(sum%2 == 0){
+    console.log("even");
+    
+}else{
+    console.log("odd");   
+}
