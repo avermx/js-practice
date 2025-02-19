@@ -112,3 +112,24 @@
 // else if(num > 0){
 //     console.log("pos");
 // }
+
+
+
+
+let user = prompt("Enter the name")
+let time = Number(prompt("Enter the time"))
+
+
+
+if(time >= 5 && time < 12){
+    console.log("Good Morning" );
+}
+else if (time >= 12 && time < 17){
+    console.log("Good Afternoon" );
+}
+else if(time >= 17 && time < 21){
+    console.log("Good Evening" );
+}
+else {
+    console.log("Good night");
+}
